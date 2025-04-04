@@ -1,7 +1,6 @@
 import axios from "axios";
 
 
-//f9c5c85a39c07c518c3ed8b3a8b402ae - keyApi/ if you need
 const API_KEY = process.env.REACT_APP_API_KEY;
 
 export const getWeatherByCity = (city: string): Promise<any> => {
