@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { TextField } from "@mui/material";
-import { WeatherCard } from "./card-weather/card-weather";
+import { WeatherCard } from "./cardWeather/cardWeather";
 import { useDebouncedWeatherFetch } from "../../hooks/useDebouncedWeatherFetch";
 
 export const Weather: React.FC = () => {
