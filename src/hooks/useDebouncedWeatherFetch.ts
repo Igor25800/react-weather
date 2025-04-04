@@ -6,7 +6,7 @@ import { WeatherCardPropsInterface } from "../interfaces/weatherCardProps.interf
 
 export const useDebouncedWeatherFetch = (debounceDelay: number = 2000) => {
     const [weather, setWeather] = useState<WeatherCardPropsInterface | undefined>();
-    const [error, setError] = useState<string>('');
+    const [error, setError] = useState<string>('ведіть назву міста');
 
     const debouncedFetchWeather = useRef(
         debounce((city: string) => {
